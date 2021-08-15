@@ -48,3 +48,13 @@ btnCheck.addEventListener("click",()=>{
 btnClose.addEventListener("click",()=>{
     privacy.style.display = "none";
 })
+
+
+btnReset.addEventListener("click",()=>{
+    privacy.style.display = "block";
+    dobInput.value = "";
+    favnumInput.value = "";
+    warning.style.display = "none";
+    luckySection.style.display = "none";
+    unluckySection.style.display = "none";
+})
