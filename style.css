@@ -1,0 +1,18 @@
+.warning {
+  color: red;
+  display: none;
+}
+
+.privacy {
+  display: block;
+  color: blueviolet;
+}
+
+#close {
+  color: red;
+}
+
+.unlucky-div,
+.lucky-div {
+  display: none;
+}
